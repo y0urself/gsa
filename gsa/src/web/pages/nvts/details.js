@@ -51,7 +51,11 @@ const NvtDetails = ({entity, links = true}) => {
           <Pre>{tags.summary}</Pre>
         </DetailsBlock>
       )}
-
+      {isDefined(tags.deprecated) && (
+        <DetailsBlock title={_('Deprecated')}>
+          <Pre>This NVT has been deprecated!</Pre>
+        </DetailsBlock>
+      )}
       <DetailsBlock title={_('Scoring')}>
         <InfoTable>
           <TableBody>
