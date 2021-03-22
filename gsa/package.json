@@ -23,7 +23,7 @@
     "extends": "react-app"
   },
   "dependencies": {
-    "@apollo/client": "^3.3.7",
+    "@apollo/client": "^3.3.12",
     "@greenbone/ui-components": "2021.1.2",
     "@babel/core": "^7.13.8",
     "@vx/axis": "^0.0.183",
